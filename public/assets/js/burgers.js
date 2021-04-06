@@ -53,7 +53,7 @@ async function devourBurger(event){
 
 };
 
-function addBurger(event){
+async function addBurger(event){
     if(event.key !== "Enter"){
         return;
     
@@ -63,14 +63,14 @@ function addBurger(event){
         return;
     }
     input.value ="";
-    const res = fetch("/burger", { 
+    const res = await fetch("/burger", { 
         method: "post",
         headers: {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({burger_name})
     });
-    const json = res.json();
+    const json = await res.json();
     console.log(json);
     console.log(event);
 }
