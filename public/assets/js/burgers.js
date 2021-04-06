@@ -53,5 +53,13 @@ async function devourBurger(event){
 
 };
 
+async function addBurger(event){
+    if(event.key !== "Enter"){
+        return;
+    
+    }
+    console.log(event);
+}
+
 
 
