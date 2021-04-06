@@ -3,14 +3,14 @@ const model= require("../models/burgers.js");
 
 
 router.get("/", (req,res) => {
-    model.getBurgers((err, data) => {
-        if(err) throw err;
-        const hbsObject = {
-          burgers: data,
-        };
-        console.log('hbsObject', hbsObject);
-        res.render('index', hbsObject);
-      });
+    // model.getBurgers((err, data) => {
+    //     if(err) throw err;
+    //     const hbsObject = {
+    //       burgers: data,
+    //     };
+        // console.log('hbsObject', hbsObject);
+        res.render('index');
+    // });
 
 });
 
