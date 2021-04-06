@@ -17,7 +17,7 @@ function insertOne(burger_name, callback){
 
 
 function updateOne(id, callback){
-    db.query(`Update burgers set devoured = 1 Where id = ${id}`, callback);
+    db.query(`Update bugers set devoured = 1 Where id = ${id}`, callback);
 }
 
 module.exports= { selectAll, insertOne, updateOne };

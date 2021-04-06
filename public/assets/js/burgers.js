@@ -1,4 +1,7 @@
 const [undevouredList, devouredList]= document.querySelectorAll("ul");
+const input = document.querySelector("input");
+
+input.addEventListener("keyup", addBurger);
 
 getBurgers();
 
@@ -29,7 +32,7 @@ function addUndevouredBurger(burger){
 // working on the view
 function addDevouredBurger(burger){
     const li = document.createElement("li");
-    li.textContent= burger.burger_name;
+    li.textcontent= burger.burger_name;
     devouredList.appendChild(li);
 
 }
@@ -46,10 +49,9 @@ async function devourBurger(event){
     });
     const json = await res.json();
     console.log(json)
-    getBurgers();
-
-
-
+    
 
 };
+
+
 
