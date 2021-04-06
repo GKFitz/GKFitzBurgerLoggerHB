@@ -58,7 +58,7 @@ async function addBurger(event){
         return;
     
     }
-    const burger_name= input.value;
+    const burger_name= input.value.trim();
     if (!burger_name){
         return;
     }

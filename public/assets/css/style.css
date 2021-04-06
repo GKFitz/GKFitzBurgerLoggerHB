@@ -1,3 +1,18 @@
 body {
-    background-color: aqua;
+    background-color:yellow;
+    text-align: center;
+
 }
+
+h2 {
+    text-align: center;
+    display: inline-block;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+
+
