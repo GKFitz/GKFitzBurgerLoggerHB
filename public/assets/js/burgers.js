@@ -14,3 +14,16 @@ async function getBurgers(){
         }
     }
 }
+
+
+function addUndevouredBurger(burger){
+
+};
+
+function addDevouredBurger(burger){
+    const li = document.createElement("li");
+    li.textcontent= burger.burger_name;
+    devouredList.appendChild(li);
+
+}
+
