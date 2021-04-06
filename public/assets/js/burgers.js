@@ -32,7 +32,7 @@ function addUndevouredBurger(burger){
 // working on the view
 function addDevouredBurger(burger){
     const li = document.createElement("li");
-    li.textcontent= burger.burger_name;
+    li.textContent= burger.burger_name;
     devouredList.appendChild(li);
 
 }
