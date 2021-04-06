@@ -3,14 +3,7 @@ const model= require("../models/burgers.js");
 
 
 router.get("/", (req,res) => {
-    // model.getBurgers((err, data) => {
-    //     if(err) throw err;
-    //     const hbsObject = {
-    //       burgers: data,
-    //     };
-        // console.log('hbsObject', hbsObject);
-        res.render('index');
-    // });
+    res.render('index');
 
 });
 
@@ -21,7 +14,7 @@ router.get("/burgers", (req, res) => {
     });
 });
 
-// get back confirmation obj
+// get back confirmation obj. this function is the request to add to the undevoured list
 router.post("/burger", (req, res) => {
     const burgerName= req.body.burger_name;
     model.addBurger(burgerName, (err, results) => {
@@ -30,6 +23,7 @@ router.post("/burger", (req, res) => {
     });
 });
 
+//This sends the request the devoured burger list
 router.post("/burger/devour", (req, res) => {
     const burgerID= req.body.id;
     model.devourBurger(burgerID, (err, results) => {
