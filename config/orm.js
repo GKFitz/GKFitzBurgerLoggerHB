@@ -20,4 +20,4 @@ function updateOne(id, callback){
     db.query(`Update bugers set devoured = 1 Where id = ${id}`, callback);
 }
 
-modules.exports= { selectAll, insertOne, updateOne };
+module.exports= { selectAll, insertOne, updateOne };
