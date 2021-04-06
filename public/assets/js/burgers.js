@@ -1,4 +1,5 @@
 const [undevouredList, devouredList]= document.querySelectorAll("ul");
+getBurgers();
 
 async function getBurgers(){
     const res = await fetch("/burgers");
@@ -18,7 +19,7 @@ async function getBurgers(){
 
 function addUndevouredBurger(burger){
     const li = document.createElement("li");
-    li.innerHTML= burger.burger_name + " <button>Devour</button> " ;
+    li.innerHTML= burger.burger_name + ` <button data-id="${burger.id}">Devour</button>` ;
     devouredList.appendChild(li);
     li.querySelector("button").addEventListener("click", devourBurger);
 };
