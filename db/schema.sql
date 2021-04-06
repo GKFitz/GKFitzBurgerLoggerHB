@@ -1,7 +1,11 @@
-Create the `burgers_db`.
-Switch to or use the `burgers_db`.
+DROP DATABASE IF EXISTS burgers_db;
+CREATE database burgers_db;
+
+USE burgers_db;
    
 Create table `burgers`
-    id auto incrementing int that serves as the primary key.
-    burger_name a string.
-    devoured a boolean.
+    id auto INT primary key.
+    burger_name VARCHAR(30),
+    devoured BOOLEAN,
+); 
+
