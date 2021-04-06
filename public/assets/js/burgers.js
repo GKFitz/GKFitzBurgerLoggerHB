@@ -70,6 +70,8 @@ function addBurger(event){
         },
         body: JSON.stringify({burger_name})
     });
+    const json = res.json();
+    console.log(json);
     console.log(event);
 }
 
