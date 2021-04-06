@@ -49,7 +49,7 @@ async function devourBurger(event){
     });
     const json = await res.json();
     console.log(json)
-    
+    getBurgers();
 
 };
 
