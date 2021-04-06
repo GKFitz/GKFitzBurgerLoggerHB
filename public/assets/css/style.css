@@ -3,14 +3,37 @@ body {
     text-align: center;
 
 }
+h1 {
+    font-family: "verdana",sans-serif;
+    margin-right: 1%;
+
+}
+p {
+    font-family: "verdana",sans-serif;
+}
+input {
+    font-family: "verdana",sans-serif;
+    position: absolute;
+    /* display: flex; */
+    justify-content: center;
+    /* padding-right: 5%; */
+    text-align: center;
+    
+}
 
 h2 {
+    font-family: "verdana",sans-serif;
     text-align: center;
     display: inline-block;
+    padding-top: 20px;
+    margin-right: 2%;
+
 }
 
 ul {
-    text-align: center;
+    font-family: "verdana",sans-serif;
+    text-align: none;
+    margin-right: 4%;
     list-style-type: none;
 }
 
