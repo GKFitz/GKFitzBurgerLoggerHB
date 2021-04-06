@@ -17,6 +17,12 @@ async function getBurgers(){
 
 
 function addUndevouredBurger(burger){
+    const li = document.createElement("li");
+    li.innerHTML= burger.burger_name + " <button>Devour</button> " ;
+    devouredList.appendChild(li);
+    li.querySelector("button").addEventListener("click", devourBurger);
+};
+function devourBurger(){
 
 };
 
