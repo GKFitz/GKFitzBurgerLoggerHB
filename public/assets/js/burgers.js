@@ -73,6 +73,7 @@ async function addBurger(event){
     const json = await res.json();
     console.log(json);
     console.log(event);
+    getBurgers();
 }
 
 
