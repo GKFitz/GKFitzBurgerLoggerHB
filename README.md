@@ -19,7 +19,7 @@ This application uses mySql databases to log differnt types of burgers into a vi
 
 
 ## Installation Instruction
-in order to run this app users will need to run an npm install. This application requires MySql, express, express handlebars and node.js.
+In order to run this app users will need to run an npm install. This application requires MySql, express, express handlebars and node.js.
 
 ## Usage
 It is used to track buger consumption by entering the burger in the mmmburger search bar, then clicking the enter button. After that your burger input will be logged into the Undevoured list. WHen you are done, click the burger's devour button and it will be transfered to the Devoured list.
