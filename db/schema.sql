@@ -3,9 +3,10 @@ CREATE database burgers_db;
 
 USE burgers_db;
    
-Create table `burgers`
-    id auto INT primary key.
+Create table `burgers`(
+    id int NOT NULL AUTO_increment,
     burger_name VARCHAR(30),
     devoured BOOLEAN,
-); 
+    PRIMARY KEY (id)
+);
 
