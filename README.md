@@ -6,6 +6,8 @@ This application uses mySql databases to log differnt types of burgers into a vi
 
 ## License
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+## Screenshot
+![image](https://user-images.githubusercontent.com/73301331/113807358-fc7a5780-9731-11eb-9a4e-b4dd3407d436.png)
 
 ## Table of Contents
 * [Description](#Description)
@@ -32,4 +34,4 @@ If anyone has any questions about this app, please contact me via GitHub or emai
 
 #Email: [gkf2103@gmail.com](gkf2103@gmail.com)
 
-Link:
+Link:https://quiet-crag-96519.herokuapp.com/
