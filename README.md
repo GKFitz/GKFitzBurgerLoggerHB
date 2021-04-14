@@ -7,7 +7,8 @@ This application uses mySql databases to log differnt types of burgers into a vi
 ## License
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Screenshot
-![image](https://user-images.githubusercontent.com/73301331/113807358-fc7a5780-9731-11eb-9a4e-b4dd3407d436.png)
+![image](https://user-images.githubusercontent.com/73301331/114768442-d7d83e00-9d36-11eb-9a80-939afec5a26d.png)
+
 
 ## Table of Contents
 * [Description](#Description)
